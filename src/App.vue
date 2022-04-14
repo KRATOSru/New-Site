@@ -20,9 +20,14 @@
     </v-navigation-drawer>
 
     <v-app-bar app dark color="primary">
-      <v-app-bar-nav-icon @click="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        @click="drawer = !drawer"
+        class="hidden-md-and-up"
+      ></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Home page</v-toolbar-title>
+      <v-toolbar-title>
+        <router-link to="/" tag="span" class="pointer">Home page</router-link>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-app-bar-items class="hidden-sm-and-down">
         <v-btn
@@ -52,14 +57,20 @@ export default {
     return {
       drawer: false,
       links: [
-        {title: 'Sertificates',icon: 'mdi-account-school', url: '/sertificates'},
+        {title: 'Sertificates',icon: 'mdi-account-school',url: '/sertificates',},
         {title: 'Works', icon: 'mdi-human-dolly', url: '/works'},
         {title: 'Apple', icon: 'mdi-apple', url: '/apple'},
         {title: 'Nest', icon: 'mdi-web', url: '/nest'},
         {title: 'Vue', icon: 'mdi-web', url: '/vue'},
-        {title: 'About me', icon: 'mdi-account', url: '/portfolio'}
-      ]
+        {title: 'About me', icon: 'mdi-account', url: '/portfolio'},
+      ],
     }
-  }
+  },
 }
 </script>
+
+<style scoped>
+.pointer {
+  cursor: pointer;
+}
+</style>
