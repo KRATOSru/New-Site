@@ -43,11 +43,11 @@ export default {
 .anm-enter-active {
   transition: opacity 1s;
 }
-.anm-enter-to {
+/* .anm-enter-to {
 }
 
 .anm-leave {
-}
+} */
 .anm-leave-active {
   animation: 1s anm-slide forwards;
   transition: opacity 1s;

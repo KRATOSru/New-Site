@@ -2,11 +2,7 @@
   <v-app>
     <v-navigation-drawer v-model="drawer" app temporary>
       <v-list>
-       <v-list-item
-          v-for="link in links"
-          :key="link.title"
-          :to="link.url"
-        >
+        <v-list-item v-for="link in links" :key="link.title" :to="link.url">
           <v-list-item-icon>
             <v-icon>{{ link.icon }}</v-icon>
           </v-list-item-icon>
@@ -17,7 +13,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
     <v-app-bar app dark color="primary">
       <v-app-bar-nav-icon
         @click="drawer = !drawer"
@@ -28,6 +23,7 @@
         <router-link to="/" tag="span" class="pointer">Home page</router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+
       <v-app-bar-items class="hidden-sm-and-down">
         <v-btn
           class="ml-1"
