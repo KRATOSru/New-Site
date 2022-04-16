@@ -1,8 +1,11 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <v-layout row>
       <v-flex xs12>
-        <h1>Home page</h1>
+        <v-img class="img"
+          src="https://cdn.pixabay.com/photo/2016/10/09/06/23/hacker-1725256__340.jpg"
+        >
+        </v-img>
       </v-flex>
     </v-layout>
   </v-container>
@@ -14,4 +17,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.img {
+  height: 100vh;
+  margin: 0 auto;
+}
+</style>

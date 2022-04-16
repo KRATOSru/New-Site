@@ -58,9 +58,9 @@ export default {
           url: '/sertificates',
         },
         {title: 'Works', icon: 'mdi-human-dolly', url: '/works'},
-        {title: 'Apple', icon: 'mdi-apple', url: '/apple'},
         {title: 'Nest', icon: 'mdi-web', url: '/nest'},
         {title: 'Vue', icon: 'mdi-web', url: '/vue'},
+        {title: 'Apple', icon: 'mdi-apple', url: '/apple'},
         {title: 'About me', icon: 'mdi-account', url: '/portfolio'},
       ],
     }

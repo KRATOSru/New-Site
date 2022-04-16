@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container fluid>
-      <v-layout row>
+      <v-layout>
         <v-flex xs12>
           <v-carousel
             cycle
@@ -11,11 +11,11 @@
           >
             <template v-slot:prev="{on, attrs}">
               <v-btn color="success" v-bind="attrs" v-on="on"
-                >Previous slide</v-btn
+                >Предыдущий</v-btn
               >
             </template>
             <template v-slot:next="{on, attrs}">
-              <v-btn color="info" v-bind="attrs" v-on="on">Next slide</v-btn>
+              <v-btn color="info" v-bind="attrs" v-on="on">Следующий</v-btn>
             </template>
             <v-carousel-item v-for="ad in ads" :key="ad.id" :src="ad.imageSrc">
             </v-carousel-item>
