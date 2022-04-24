@@ -8,11 +8,11 @@
         >
         <transition name="anm">
           <p class="mt-5" v-if="show">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            explicabo quibusdam nisi reprehenderit optio, numquam inventore
-            error repellendus sed illum recusandae non maiores, facere dolorum
-            similique laborum expedita ducimus tempore.
-             <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
+            Сайт написанный на vuejs с авторизацией, регистрацией, пагинацией.
+            Так же реализована возможность добавления постов и комментариев,
+            редактирования профиля пользователя, лайков и дизлайков. На бэке
+            используется api сайта word.io.
+            <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
           <v-btn class="success ml-12">Смотреть сайт</v-btn>
         </transition>

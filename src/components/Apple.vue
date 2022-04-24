@@ -8,11 +8,9 @@
         >
         <transition name="anm">
           <p class="mt-5" v-if="show">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            explicabo quibusdam nisi reprehenderit optio, numquam inventore
-            error repellendus sed illum recusandae non maiores, facere dolorum
-            similique laborum expedita ducimus tempore.
-             <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
+            Использован шаблон сайта apple в качестве примерв макета, но
+            реализован на популярном css фреймверке tailwindcss.
+            <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
           <v-btn class="success ml-12">Смотреть сайт</v-btn>
         </transition>

@@ -49,38 +49,38 @@ export default {
         {
           title: 'First site',
           imageSrc:
-            'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__340.jpg',
+            'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(10)-min.png?raw=true',
           id: '1',
         },
 
         {
           title: 'Second site',
           imageSrc:
-            'https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__480.jpg',
+            'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(4)-min.png?raw=true',
           id: '2',
         },
         {
           title: 'Third site',
           imageSrc:
-            'https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575__340.jpg',
+            'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(12)-min.png?raw=true',
           id: '3',
         },
           {
           title: 'Forth site',
           imageSrc:
-            'https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835__340.jpg',
+            'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(9)-min.png?raw=true',
           id: '4',
         },
           {
           title: 'Fifth site',
           imageSrc:
-            'https://cdn.pixabay.com/photo/2019/07/07/06/34/network-4321833__340.jpg',
+            'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(8)-min.png?raw=true',
           id: '5',
         },
           {
           title: 'Sixth site',
           imageSrc:
-            'https://cdn.pixabay.com/photo/2016/05/14/11/10/board-1391679__340.jpg',
+            'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(6)-min.png?raw=true',
           id: '6',
         },
       ],

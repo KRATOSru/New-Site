@@ -8,10 +8,7 @@
         >
         <transition name="anm">
           <p class="mt-5" v-if="show">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            explicabo quibusdam nisi reprehenderit optio, numquam inventore
-            error repellendus sed illum recusandae non maiores, facere dolorum
-            similique laborum expedita ducimus tempore.
+            Landing page написан на популярном в настоящее время фреймверке tailwindcss.
              <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
           <v-btn class="success ml-12">Смотреть сайт</v-btn>

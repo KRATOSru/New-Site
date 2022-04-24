@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="container">
     <v-layout row>
       <v-flex xs12>
         <h1 class="nest">Nest page</h1>
@@ -8,11 +8,13 @@
         >
         <transition name="anm">
           <p class="mt-5" v-if="show">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            explicabo quibusdam nisi reprehenderit optio, numquam inventore
-            error repellendus sed illum recusandae non maiores, facere dolorum
-            similique laborum expedita ducimus tempore.
-             <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
+            Бэкенд написанный на nestjs с функционалом авторизации, регистрации,
+            пагинации. Так же реализована возможность добавления постов и
+            комментариев, редактирования профиля пользователя, лайков и
+            дизлайков. На фронтэнде будет использован vuejs, сайта
+            предоставленного на соседней страничке По факту будет full stack
+            project. В настоящее время в разработке.
+            <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
           <v-btn class="success ml-12">Смотреть сайт</v-btn>
         </transition>
