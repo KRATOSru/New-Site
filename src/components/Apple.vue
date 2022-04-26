@@ -12,7 +12,12 @@
             реализован на популярном css фреймверке tailwindcss.
             <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
-          <v-btn class="success ml-12">Смотреть сайт</v-btn>
+          <v-btn
+            class="success ml-12"
+            target="_blank"
+            href="https://tailwindapple.web.app/"
+            >Смотреть сайт</v-btn
+          >
         </transition>
       </v-flex>
     </v-layout>

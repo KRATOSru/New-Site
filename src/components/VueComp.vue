@@ -14,7 +14,12 @@
             используется api сайта word.io.
             <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
-          <v-btn class="success ml-12">Смотреть сайт</v-btn>
+          <v-btn
+            class="success ml-12"
+            target="_blank"
+            href="https://mediumclone-vue.web.app/"
+            >Смотреть сайт</v-btn
+          >
         </transition>
       </v-flex>
     </v-layout>

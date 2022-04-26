@@ -8,10 +8,16 @@
         >
         <transition name="anm">
           <p class="mt-5" v-if="show">
-            Landing page написан на популярном в настоящее время фреймверке tailwindcss.
-             <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
+            Landing page написан на популярном в настоящее время фреймверке
+            tailwindcss.
+            <!-- <v-btn class="success ml-12">Смотреть сайт</v-btn> -->
           </p>
-          <v-btn class="success ml-12">Смотреть сайт</v-btn>
+          <v-btn
+            class="success ml-12"
+            target="_blank"
+            href="https://tailwindportfolio-7a0d1.web.app/"
+            >Смотреть сайт</v-btn
+          >
         </transition>
       </v-flex>
     </v-layout>

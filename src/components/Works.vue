@@ -10,9 +10,7 @@
             show-arrows-on-hover
           >
             <template v-slot:prev="{on, attrs}">
-              <v-btn color="success" v-bind="attrs" v-on="on"
-                >Предыдущий</v-btn
-              >
+              <v-btn color="success" v-bind="attrs" v-on="on">Предыдущий</v-btn>
             </template>
             <template v-slot:next="{on, attrs}">
               <v-btn color="info" v-bind="attrs" v-on="on">Следующий</v-btn>
@@ -25,7 +23,7 @@
     </v-container>
     <v-container grid-list-lg>
       <!-- можно без row -->
-      <v-layout row wrap>
+      <v-layout row wrap class="bg">
         <v-flex xs12 sm6 md4 v-for="ad in ads" :key="ad.id">
           <v-card class="mx-auto mt-2 elevation-10" max-width="400">
             <v-img height="200px" :src="ad.imageSrc"> </v-img>
@@ -65,19 +63,19 @@ export default {
             'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(12)-min.png?raw=true',
           id: '3',
         },
-          {
+        {
           title: 'Forth site',
           imageSrc:
             'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(9)-min.png?raw=true',
           id: '4',
         },
-          {
+        {
           title: 'Fifth site',
           imageSrc:
             'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(8)-min.png?raw=true',
           id: '5',
         },
-          {
+        {
           title: 'Sixth site',
           imageSrc:
             'https://github.com/vladimirKartyshov/Resume-Page/blob/master/public/image/Screenshot%20(6)-min.png?raw=true',
@@ -89,4 +87,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.bg {
+  background-color: #e1e1d6;
+}
+</style>
