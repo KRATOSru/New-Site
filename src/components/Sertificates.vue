@@ -42,7 +42,7 @@ export default {
         mouseControls: true,
         touchControls: true,
         color: 0x53552,
-        minHeight: 800.0,
+        minHeight: 1000.00,
         minWidth: 200.0,
         scale: 1.0,
         scaleMobile: 1.0,
