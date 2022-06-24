@@ -20,7 +20,7 @@
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title>
-        <router-link to="/" tag="span" class="pointer">Home page</router-link>
+        <router-link to="/" tag="span" class="pointer"><h4>Home page</h4></router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
